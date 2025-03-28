@@ -1,0 +1,14 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": false
+    },
+    "extends": "react-app",
+    "globals": {
+        "process": "readonly" // Add this line
+    },
+    "rules": {
+        "no-undef": "error"
+    }
+}
